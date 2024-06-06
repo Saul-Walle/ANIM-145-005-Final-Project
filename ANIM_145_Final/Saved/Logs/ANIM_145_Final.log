@@ -1128,3 +1128,813 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.06.06-01.07.58:530][638]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2024.06.06-01.07.58:530][638]LogContentValidation: Display: Validating asset /Game/RamsesTran_Scene.RamsesTran_Scene
 [2024.06.06-01.07.58:531][638]AssetCheck: /Game/RamsesTran_Scene Validating asset
+[2024.06.06-01.10.17:864][ 70]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire
+[2024.06.06-01.10.17:864][ 70]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire
+[2024.06.06-01.10.17:864][ 70]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire as actor: Emitter /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.Emitter_0
+[2024.06.06-01.10.17:865][ 70]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire as actor: Emitter /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.Emitter_0
+[2024.06.06-01.10.19:267][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.06.06-01.10.19:269][223]LogEditorActor: Deleted 0 Actors (0.005 secs)
+[2024.06.06-01.10.19:274][223]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire
+[2024.06.06-01.10.19:274][223]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire
+[2024.06.06-01.10.19:276][223]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire as actor: Emitter /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.Emitter_1
+[2024.06.06-01.10.19:277][223]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire as actor: Emitter /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.Emitter_1
+[2024.06.06-01.11.14:187][491]LogShaderCompilers: Display: ================================================
+[2024.06.06-01.11.14:187][491]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.06-01.11.14:187][491]LogShaderCompilers: Display: Total job queries 239, among them cache hits 95 (39.75%), DDC hits 115 (48.12%), Duplicates 3 (1.26%)
+[2024.06.06-01.11.14:187][491]LogShaderCompilers: Display: Tracking 141 distinct input hashes that result in 105 distinct outputs (74.47%)
+[2024.06.06-01.11.14:187][491]LogShaderCompilers: Display: RAM used: 2.46 MiB of 1.60 GiB budget. Usage: 0.15%
+[2024.06.06-01.11.14:187][491]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.06-01.11.14:187][491]LogShaderCompilers: Display: Shaders Compiled: 26
+[2024.06.06-01.11.14:187][491]LogShaderCompilers: Display: Jobs assigned 26, completed 26 (100%)
+[2024.06.06-01.11.14:187][491]LogShaderCompilers: Display: Average time worker was idle: 0.21 s
+[2024.06.06-01.11.14:187][491]LogShaderCompilers: Display: Time job spent in pending queue: average 0.27 s, longest 0.98 s
+[2024.06.06-01.11.14:187][491]LogShaderCompilers: Display: Job execution time: average 0.71 s, max 1.42 s
+[2024.06.06-01.11.14:187][491]LogShaderCompilers: Display: Job life time (pending + execution): average 0.98 s, max 1.49
+[2024.06.06-01.11.14:187][491]LogShaderCompilers: Display: Shader code size: average 46.335 KiB, min 4.406 KiB, max 63.129 KiB
+[2024.06.06-01.11.14:187][491]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.80 s
+[2024.06.06-01.11.14:187][491]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.30%
+[2024.06.06-01.11.14:187][491]LogShaderCompilers: Display: Jobs were issued in 26 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.06.06-01.11.14:187][491]LogShaderCompilers: Display: Average processing rate: 6.83 jobs/sec
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display: Total thread time: 11.76 s
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display: Total thread preprocess time: 2.157 s
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display: Percentage time preprocessing: 18.34%
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display: Effective parallelization: 3.09 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 0.61 sec, max 0.72 sec, min 0.49 sec)
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    3 times, average 0.58 sec, max 0.67 sec, min 0.52 sec)
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display:                                            FDistortionMeshPS (compiled    2 times, average 0.54 sec, max 0.60 sec, min 0.48 sec)
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.52 sec, max 0.69 sec, min 0.25 sec)
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    3 times, average 0.46 sec, max 0.56 sec, min 0.39 sec)
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 23.10% of total time (compiled    7 times, average 0.39 sec, max 0.51 sec, min 0.20 sec)
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 21.92% of total time (compiled    5 times, average 0.52 sec, max 0.69 sec, min 0.25 sec)
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 14.72% of total time (compiled    3 times, average 0.58 sec, max 0.67 sec, min 0.52 sec)
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.76% of total time (compiled    3 times, average 0.46 sec, max 0.56 sec, min 0.39 sec)
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 10.29% of total time (compiled    2 times, average 0.61 sec, max 0.72 sec, min 0.49 sec)
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display: === Material stats ===
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display: Materials Translated:    151
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display: Material Total Translate Time: 0.10 s
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display: Material Translation Only: 0.03 s (32%)
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display: Material Cache Hits: 35 (23%)
+[2024.06.06-01.11.14:188][491]LogShaderCompilers: Display: ================================================
+[2024.06.06-01.11.47:600][146]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/Saul/Ingot.Ingot
+[2024.06.06-01.11.47:600][146]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/Saul/Ingot.Ingot
+[2024.06.06-01.11.47:601][146]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/Saul/Ingot.Ingot as actor: StaticMeshActor /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.StaticMeshActor_109
+[2024.06.06-01.11.48:107][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2024.06.06-01.11.48:110][198]LogEditorActor: Deleted 0 Actors (0.006 secs)
+[2024.06.06-01.11.48:116][198]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/Saul/Ingot.Ingot
+[2024.06.06-01.11.48:116][198]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/Saul/Ingot.Ingot
+[2024.06.06-01.11.48:117][198]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/Saul/Ingot.Ingot as actor: StaticMeshActor /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.StaticMeshActor_110
+[2024.06.06-01.11.49:134][300]LogNavigation: Warning: FNavigationOctree::AddNode: Empty bounds, ignoring StaticMeshComponent /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.StaticMeshActor_110.StaticMeshComponent0.
+[2024.06.06-01.11.49:645][355]LogNavigation: Warning: FNavigationOctree::AddNode: Empty bounds, ignoring StaticMeshComponent /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.StaticMeshActor_110.StaticMeshComponent0.
+[2024.06.06-01.11.59:480][440]Cmd: EDIT COPY
+[2024.06.06-01.11.59:738][471]Cmd: EDIT PASTE
+[2024.06.06-01.12.31:738][221]Cmd: EDIT COPY
+[2024.06.06-01.12.33:530][436]Cmd: EDIT PASTE
+[2024.06.06-01.12.41:395][358]Cmd: EDIT COPY
+[2024.06.06-01.12.41:720][397]Cmd: EDIT PASTE
+[2024.06.06-01.12.44:949][777]Cmd: EDIT COPY
+[2024.06.06-01.12.45:324][822]Cmd: EDIT PASTE
+[2024.06.06-01.14.34:790][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.06.06-01.14.34:795][874]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.06-01.14.35:163][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2024.06.06-01.14.35:179][874]LogSavePackage: Moving output files for package: /Game/RamsesTran_Scene
+[2024.06.06-01.14.35:180][874]LogSavePackage: Moving '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Saved/RamsesTran_Scene880D96F748BDCD108F8057887986E4BD.tmp' to '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Content/RamsesTran_Scene.umap'
+[2024.06.06-01.14.35:184][874]LogFileHelpers: Saving map 'RamsesTran_Scene' took 0.035
+[2024.06.06-01.14.35:193][874]LogFileHelpers: InternalPromptForCheckoutAndSave took 398.073 ms (total: 511.951 ms)
+[2024.06.06-01.14.35:249][874]LogContentValidation: Display: Starting to validate 1 assets
+[2024.06.06-01.14.35:249][874]LogContentValidation: Enabled validators:
+[2024.06.06-01.14.35:249][874]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.06.06-01.14.35:249][874]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.06.06-01.14.35:249][874]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.06.06-01.14.35:249][874]LogContentValidation: Display: Validating asset /Game/RamsesTran_Scene.RamsesTran_Scene
+[2024.06.06-01.14.35:249][874]AssetCheck: /Game/RamsesTran_Scene Validating asset
+[2024.06.06-01.14.44:733][917]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.06.06-01.14.55:301][ 96]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.06.06-01.14.55:301][ 96]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.06.06-01.15.20:153][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.06.06-01.15.20:158][867]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.06-01.15.20:232][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2024.06.06-01.15.20:251][867]LogSavePackage: Moving output files for package: /Game/RamsesTran_Scene
+[2024.06.06-01.15.20:251][867]LogSavePackage: Moving '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Saved/RamsesTran_Scene3D6E04CF43E3E7C87555A88034238284.tmp' to '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Content/RamsesTran_Scene.umap'
+[2024.06.06-01.15.20:256][867]LogFileHelpers: Saving map 'RamsesTran_Scene' took 0.040
+[2024.06.06-01.15.20:286][867]LogFileHelpers: InternalPromptForCheckoutAndSave took 127.649 ms (total: 639.601 ms)
+[2024.06.06-01.15.20:334][867]LogContentValidation: Display: Starting to validate 1 assets
+[2024.06.06-01.15.20:334][867]LogContentValidation: Enabled validators:
+[2024.06.06-01.15.20:334][867]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.06.06-01.15.20:334][867]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.06.06-01.15.20:334][867]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.06.06-01.15.20:334][867]LogContentValidation: Display: Validating asset /Game/RamsesTran_Scene.RamsesTran_Scene
+[2024.06.06-01.15.20:334][867]AssetCheck: /Game/RamsesTran_Scene Validating asset
+[2024.06.06-01.15.22:440][109]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.06-01.15.22:461][109]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.06-01.15.22:464][109]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.06.06-01.15.22:464][109]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.06.06-01.15.22:464][109]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.15.22:469][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004623s)
+[2024.06.06-01.15.22:469][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RamsesTran_Scene.RamsesTran_Scene to /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene (0.004660s)
+[2024.06.06-01.15.22:472][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.06.06-01.15.22:473][109]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.06.06-01.15.22:474][109]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2024.06.06-01.15.22:505][109]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.06.06-01.15.22:505][109]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.06-01.15.22:506][109]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.06-01.15.22:506][109]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.06-01.15.22:506][109]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.06-01.15.22:506][109]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.06-01.15.22:506][109]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.06-01.15.22:506][109]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.06-01.15.22:506][109]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.06-01.15.22:506][109]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.06-01.15.22:506][109]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.06-01.15.22:506][109]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.06-01.15.22:508][109]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.06-01.15.22:529][109]LogAudioMixer: Display: Using Audio Hardware Device Speakers (fifine SC3)
+[2024.06.06-01.15.22:529][109]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.06-01.15.22:529][109]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.06-01.15.22:529][109]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.06-01.15.22:530][109]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.06.06-01.15.22:530][109]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.06.06-01.15.22:531][109]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.06.06-01.15.22:531][109]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.06.06-01.15.22:531][109]LogInit: FAudioDevice initialized with ID 2.
+[2024.06.06-01.15.22:531][109]LogAudio: Display: Audio Device (ID: 2) registered with world 'RamsesTran_Scene'.
+[2024.06.06-01.15.22:531][109]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.06.06-01.15.22:534][109]LogLoad: Game class is 'GameModeBase'
+[2024.06.06-01.15.22:537][109]LogWorld: Bringing World /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene up for play (max tick rate 0) at 2024.06.05-21.15.22
+[2024.06.06-01.15.22:537][109]LogWorld: Bringing up level for play took: 0.002776
+[2024.06.06-01.15.22:539][109]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2024.06.06-01.15.22:602][109]PIE: Server logged in
+[2024.06.06-01.15.22:603][109]PIE: Play in editor total start time 0.158 seconds.
+[2024.06.06-01.16.12:810][980]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.16.12:810][980]LogWorld: BeginTearingDown for /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.16.12:810][980]LogWorld: UWorld::CleanupWorld for RamsesTran_Scene, bSessionEnded=true, bCleanupResources=true
+[2024.06.06-01.16.12:811][980]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.16.12:811][980]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.06.06-01.16.12:811][980]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.06.06-01.16.12:813][980]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.06-01.16.12:816][980]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.16.12:819][980]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.16.12:820][980]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.06.06-01.16.12:820][980]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.06.06-01.16.12:822][980]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.06.06-01.16.12:827][980]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.06.06-01.16.12:895][981]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2024.06.06-01.17.55:462][550]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.06-01.17.55:472][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.06-01.17.55:510][550]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.17.55:514][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004687s)
+[2024.06.06-01.17.55:514][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RamsesTran_Scene.RamsesTran_Scene to /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene (0.004732s)
+[2024.06.06-01.17.55:518][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.06.06-01.17.55:519][550]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.06.06-01.17.55:520][550]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2024.06.06-01.17.55:551][550]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.06.06-01.17.55:551][550]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.06-01.17.55:551][550]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.06-01.17.55:551][550]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.06-01.17.55:551][550]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.06-01.17.55:551][550]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.06-01.17.55:551][550]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.06-01.17.55:551][550]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.06-01.17.55:551][550]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.06-01.17.55:551][550]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.06-01.17.55:551][550]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.06-01.17.55:551][550]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.06-01.17.55:553][550]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.06-01.17.55:570][550]LogAudioMixer: Display: Using Audio Hardware Device Speakers (fifine SC3)
+[2024.06.06-01.17.55:571][550]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.06-01.17.55:571][550]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.06-01.17.55:571][550]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.06-01.17.55:571][550]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.06.06-01.17.55:571][550]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.06.06-01.17.55:573][550]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.06.06-01.17.55:573][550]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.06.06-01.17.55:573][550]LogInit: FAudioDevice initialized with ID 3.
+[2024.06.06-01.17.55:573][550]LogAudio: Display: Audio Device (ID: 3) registered with world 'RamsesTran_Scene'.
+[2024.06.06-01.17.55:573][550]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.06.06-01.17.55:577][550]LogLoad: Game class is 'GameModeBase'
+[2024.06.06-01.17.55:579][550]LogWorld: Bringing World /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene up for play (max tick rate 0) at 2024.06.05-21.17.55
+[2024.06.06-01.17.55:579][550]LogWorld: Bringing up level for play took: 0.002535
+[2024.06.06-01.17.55:581][550]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2024.06.06-01.17.55:614][550]PIE: Server logged in
+[2024.06.06-01.17.55:615][550]PIE: Play in editor total start time 0.149 seconds.
+[2024.06.06-01.18.25:014][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.18.25:014][492]LogWorld: BeginTearingDown for /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.18.25:014][492]LogWorld: UWorld::CleanupWorld for RamsesTran_Scene, bSessionEnded=true, bCleanupResources=true
+[2024.06.06-01.18.25:014][492]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.18.25:014][492]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.06.06-01.18.25:014][492]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.06.06-01.18.25:017][492]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.06-01.18.25:019][492]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.18.25:022][492]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.06-01.18.25:022][492]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.06.06-01.18.25:022][492]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.06.06-01.18.25:023][492]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.06.06-01.18.25:027][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.18.25:028][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.06.06-01.18.25:097][493]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2024.06.06-01.19.18:816][750]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2024.06.06-01.19.18:816][750]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2024.06.06-01.19.18:817][750]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.DirectionalLight_1
+[2024.06.06-01.19.18:817][750]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.DirectionalLight_1
+[2024.06.06-01.19.18:828][750]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.06.06-01.19.44:965][754]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.06-01.19.44:984][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.06-01.19.44:984][754]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.19.44:987][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003598s)
+[2024.06.06-01.19.44:988][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RamsesTran_Scene.RamsesTran_Scene to /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene (0.003622s)
+[2024.06.06-01.19.44:993][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.06.06-01.19.44:994][754]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.06.06-01.19.44:995][754]LogPlayLevel: PIE: World Init took: (0.000889s)
+[2024.06.06-01.19.45:028][754]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.06.06-01.19.45:028][754]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.06-01.19.45:028][754]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.06-01.19.45:028][754]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.06-01.19.45:028][754]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.06-01.19.45:028][754]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.06-01.19.45:028][754]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.06-01.19.45:028][754]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.06-01.19.45:028][754]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.06-01.19.45:028][754]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.06-01.19.45:028][754]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.06-01.19.45:028][754]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.06-01.19.45:029][754]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.06-01.19.45:047][754]LogAudioMixer: Display: Using Audio Hardware Device Speakers (fifine SC3)
+[2024.06.06-01.19.45:048][754]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.06-01.19.45:048][754]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.06-01.19.45:048][754]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.06-01.19.45:048][754]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.06.06-01.19.45:048][754]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.06.06-01.19.45:049][754]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.06.06-01.19.45:049][754]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.06.06-01.19.45:049][754]LogInit: FAudioDevice initialized with ID 4.
+[2024.06.06-01.19.45:049][754]LogAudio: Display: Audio Device (ID: 4) registered with world 'RamsesTran_Scene'.
+[2024.06.06-01.19.45:049][754]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.06.06-01.19.45:052][754]LogLoad: Game class is 'GameModeBase'
+[2024.06.06-01.19.45:054][754]LogWorld: Bringing World /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene up for play (max tick rate 0) at 2024.06.05-21.19.45
+[2024.06.06-01.19.45:054][754]LogWorld: Bringing up level for play took: 0.002541
+[2024.06.06-01.19.45:056][754]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2024.06.06-01.19.45:088][754]PIE: Server logged in
+[2024.06.06-01.19.45:089][754]PIE: Play in editor total start time 0.12 seconds.
+[2024.06.06-01.20.09:794][912]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.20.09:794][912]LogWorld: BeginTearingDown for /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.20.09:794][912]LogWorld: UWorld::CleanupWorld for RamsesTran_Scene, bSessionEnded=true, bCleanupResources=true
+[2024.06.06-01.20.09:795][912]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.20.09:795][912]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.06.06-01.20.09:795][912]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.06.06-01.20.09:797][912]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.06-01.20.09:799][912]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.20.09:802][912]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.06-01.20.09:803][912]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.06.06-01.20.09:803][912]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.06.06-01.20.09:804][912]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.06.06-01.20.09:806][912]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.20.09:808][912]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.06.06-01.20.09:880][913]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2024.06.06-01.20.28:136][ 65]Cmd: DELETE
+[2024.06.06-01.20.28:136][ 65]Cmd: ACTOR DELETE
+[2024.06.06-01.20.28:138][ 65]LogEditorActor: Deleted Actor: DirectionalLight
+[2024.06.06-01.20.28:142][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.06.06-01.20.28:143][ 65]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2024.06.06-01.20.30:819][381]Cmd: DELETE
+[2024.06.06-01.20.30:819][381]Cmd: ACTOR DELETE
+[2024.06.06-01.20.30:821][381]LogEditorActor: Deleted Actor: PointLight
+[2024.06.06-01.20.30:826][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2024.06.06-01.20.30:828][381]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2024.06.06-01.20.46:264][168]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2024.06.06-01.20.46:264][168]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2024.06.06-01.21.12:098][146]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.06-01.21.12:116][146]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.06-01.21.12:142][146]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.21.12:146][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004258s)
+[2024.06.06-01.21.12:146][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RamsesTran_Scene.RamsesTran_Scene to /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene (0.004295s)
+[2024.06.06-01.21.12:149][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.06.06-01.21.12:150][146]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.06.06-01.21.12:151][146]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2024.06.06-01.21.12:183][146]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.06.06-01.21.12:183][146]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.06-01.21.12:183][146]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.06-01.21.12:183][146]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.06-01.21.12:183][146]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.06-01.21.12:183][146]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.06-01.21.12:183][146]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.06-01.21.12:183][146]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.06-01.21.12:183][146]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.06-01.21.12:183][146]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.06-01.21.12:183][146]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.06-01.21.12:183][146]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.06-01.21.12:184][146]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.06-01.21.12:203][146]LogAudioMixer: Display: Using Audio Hardware Device Speakers (fifine SC3)
+[2024.06.06-01.21.12:204][146]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.06-01.21.12:204][146]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.06-01.21.12:204][146]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.06-01.21.12:204][146]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.06.06-01.21.12:204][146]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.06.06-01.21.12:205][146]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.06.06-01.21.12:206][146]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.06.06-01.21.12:206][146]LogInit: FAudioDevice initialized with ID 5.
+[2024.06.06-01.21.12:206][146]LogAudio: Display: Audio Device (ID: 5) registered with world 'RamsesTran_Scene'.
+[2024.06.06-01.21.12:206][146]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.06.06-01.21.12:208][146]LogLoad: Game class is 'GameModeBase'
+[2024.06.06-01.21.12:211][146]LogWorld: Bringing World /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene up for play (max tick rate 0) at 2024.06.05-21.21.12
+[2024.06.06-01.21.12:211][146]LogWorld: Bringing up level for play took: 0.003024
+[2024.06.06-01.21.12:213][146]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2024.06.06-01.21.12:246][146]PIE: Server logged in
+[2024.06.06-01.21.12:247][146]PIE: Play in editor total start time 0.144 seconds.
+[2024.06.06-01.23.01:905][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.23.01:906][417]LogWorld: BeginTearingDown for /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.23.01:906][417]LogWorld: UWorld::CleanupWorld for RamsesTran_Scene, bSessionEnded=true, bCleanupResources=true
+[2024.06.06-01.23.01:906][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.23.01:906][417]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.06.06-01.23.01:906][417]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.06.06-01.23.01:909][417]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.06-01.23.01:911][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.23.01:915][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.23.01:915][417]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.06.06-01.23.01:915][417]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.06.06-01.23.01:917][417]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.06.06-01.23.01:921][417]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.06.06-01.23.01:994][418]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2024.06.06-01.23.10:027][355]Cmd: TRANSACTION UNDO
+[2024.06.06-01.23.10:027][355]LogEditorTransaction: Undo Scale Elements
+[2024.06.06-01.23.43:501][294]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.06-01.23.43:512][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.06-01.23.43:543][294]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.23.43:547][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003794s)
+[2024.06.06-01.23.43:547][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RamsesTran_Scene.RamsesTran_Scene to /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene (0.003835s)
+[2024.06.06-01.23.43:550][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.06.06-01.23.43:551][294]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.06.06-01.23.43:552][294]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2024.06.06-01.23.43:583][294]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.06.06-01.23.43:583][294]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.06-01.23.43:583][294]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.06-01.23.43:583][294]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.06-01.23.43:583][294]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.06-01.23.43:583][294]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.06-01.23.43:583][294]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.06-01.23.43:583][294]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.06-01.23.43:583][294]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.06-01.23.43:583][294]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.06-01.23.43:583][294]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.06-01.23.43:583][294]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.06-01.23.43:585][294]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.06-01.23.43:603][294]LogAudioMixer: Display: Using Audio Hardware Device Speakers (fifine SC3)
+[2024.06.06-01.23.43:603][294]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.06-01.23.43:603][294]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.06-01.23.43:603][294]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.06-01.23.43:604][294]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.06.06-01.23.43:604][294]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.06.06-01.23.43:605][294]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.06.06-01.23.43:605][294]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.06.06-01.23.43:605][294]LogInit: FAudioDevice initialized with ID 6.
+[2024.06.06-01.23.43:605][294]LogAudio: Display: Audio Device (ID: 6) registered with world 'RamsesTran_Scene'.
+[2024.06.06-01.23.43:605][294]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.06.06-01.23.43:608][294]LogLoad: Game class is 'GameModeBase'
+[2024.06.06-01.23.43:611][294]LogWorld: Bringing World /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene up for play (max tick rate 0) at 2024.06.05-21.23.43
+[2024.06.06-01.23.43:611][294]LogWorld: Bringing up level for play took: 0.003014
+[2024.06.06-01.23.43:613][294]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2024.06.06-01.23.43:645][294]PIE: Server logged in
+[2024.06.06-01.23.43:646][294]PIE: Play in editor total start time 0.141 seconds.
+[2024.06.06-01.24.12:055][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.24.12:055][935]LogWorld: BeginTearingDown for /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.24.12:055][935]LogWorld: UWorld::CleanupWorld for RamsesTran_Scene, bSessionEnded=true, bCleanupResources=true
+[2024.06.06-01.24.12:056][935]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.24.12:056][935]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.06.06-01.24.12:056][935]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.06.06-01.24.12:059][935]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.06-01.24.12:062][935]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.24.12:065][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.24.12:066][935]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.06.06-01.24.12:066][935]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.06.06-01.24.12:067][935]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.06.06-01.24.12:071][935]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.06.06-01.24.12:153][936]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2024.06.06-01.24.28:010][807]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.06-01.24.28:022][807]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.06-01.24.28:044][807]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.24.28:047][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003739s)
+[2024.06.06-01.24.28:047][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RamsesTran_Scene.RamsesTran_Scene to /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene (0.003780s)
+[2024.06.06-01.24.28:051][807]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.06.06-01.24.28:052][807]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.06.06-01.24.28:052][807]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2024.06.06-01.24.28:084][807]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.06.06-01.24.28:084][807]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.06-01.24.28:084][807]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.06-01.24.28:084][807]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.06-01.24.28:084][807]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.06-01.24.28:084][807]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.06-01.24.28:084][807]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.06-01.24.28:084][807]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.06-01.24.28:084][807]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.06-01.24.28:084][807]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.06-01.24.28:084][807]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.06-01.24.28:084][807]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.06-01.24.28:085][807]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.06-01.24.28:104][807]LogAudioMixer: Display: Using Audio Hardware Device Speakers (fifine SC3)
+[2024.06.06-01.24.28:104][807]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.06-01.24.28:104][807]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.06-01.24.28:104][807]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.06-01.24.28:105][807]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.06.06-01.24.28:105][807]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.06.06-01.24.28:106][807]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.06.06-01.24.28:106][807]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.06.06-01.24.28:106][807]LogInit: FAudioDevice initialized with ID 7.
+[2024.06.06-01.24.28:106][807]LogAudio: Display: Audio Device (ID: 7) registered with world 'RamsesTran_Scene'.
+[2024.06.06-01.24.28:106][807]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.06.06-01.24.28:109][807]LogLoad: Game class is 'GameModeBase'
+[2024.06.06-01.24.28:111][807]LogWorld: Bringing World /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene up for play (max tick rate 0) at 2024.06.05-21.24.28
+[2024.06.06-01.24.28:112][807]LogWorld: Bringing up level for play took: 0.003026
+[2024.06.06-01.24.28:113][807]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2024.06.06-01.24.28:146][807]PIE: Server logged in
+[2024.06.06-01.24.28:147][807]PIE: Play in editor total start time 0.132 seconds.
+[2024.06.06-01.25.12:467][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.25.12:467][868]LogWorld: BeginTearingDown for /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.25.12:468][868]LogWorld: UWorld::CleanupWorld for RamsesTran_Scene, bSessionEnded=true, bCleanupResources=true
+[2024.06.06-01.25.12:468][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.25.12:468][868]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.06.06-01.25.12:468][868]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.06.06-01.25.12:470][868]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.06-01.25.12:472][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.25.12:477][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.25.12:477][868]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.06.06-01.25.12:477][868]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.06.06-01.25.12:478][868]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.06.06-01.25.12:484][868]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.06.06-01.25.12:564][869]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2024.06.06-01.25.16:110][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.06.06-01.25.16:113][267]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.06-01.25.16:170][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2024.06.06-01.25.16:187][267]LogSavePackage: Moving output files for package: /Game/RamsesTran_Scene
+[2024.06.06-01.25.16:188][267]LogSavePackage: Moving '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Saved/RamsesTran_SceneE11A615B4162936F96D511B71577FC94.tmp' to '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Content/RamsesTran_Scene.umap'
+[2024.06.06-01.25.16:192][267]LogFileHelpers: Saving map 'RamsesTran_Scene' took 0.038
+[2024.06.06-01.25.16:208][267]LogFileHelpers: InternalPromptForCheckoutAndSave took 94.863 ms (total: 734.464 ms)
+[2024.06.06-01.25.16:251][267]LogContentValidation: Display: Starting to validate 1 assets
+[2024.06.06-01.25.16:251][267]LogContentValidation: Enabled validators:
+[2024.06.06-01.25.16:251][267]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.06.06-01.25.16:251][267]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.06.06-01.25.16:251][267]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.06.06-01.25.16:251][267]LogContentValidation: Display: Validating asset /Game/RamsesTran_Scene.RamsesTran_Scene
+[2024.06.06-01.25.16:251][267]AssetCheck: /Game/RamsesTran_Scene Validating asset
+[2024.06.06-01.25.38:759][ 35]Cmd: DELETE
+[2024.06.06-01.25.38:759][ 35]Cmd: ACTOR DELETE
+[2024.06.06-01.25.38:761][ 35]LogEditorActor: Deleted Actor: SpotLight
+[2024.06.06-01.25.38:765][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.06.06-01.25.38:767][ 35]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2024.06.06-01.26.01:838][201]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.06.06-01.26.01:838][201]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.06.06-01.28.01:068][317]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.06-01.28.01:087][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.06-01.28.01:087][317]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.28.01:091][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003675s)
+[2024.06.06-01.28.01:091][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RamsesTran_Scene.RamsesTran_Scene to /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene (0.003705s)
+[2024.06.06-01.28.01:104][317]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.06.06-01.28.01:105][317]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.06.06-01.28.01:106][317]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2024.06.06-01.28.01:138][317]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.06.06-01.28.01:138][317]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.06-01.28.01:138][317]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.06-01.28.01:138][317]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.06-01.28.01:138][317]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.06-01.28.01:138][317]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.06-01.28.01:138][317]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.06-01.28.01:138][317]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.06-01.28.01:138][317]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.06-01.28.01:138][317]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.06-01.28.01:138][317]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.06-01.28.01:138][317]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.06-01.28.01:140][317]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.06-01.28.01:157][317]LogAudioMixer: Display: Using Audio Hardware Device Speakers (fifine SC3)
+[2024.06.06-01.28.01:157][317]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.06-01.28.01:157][317]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.06-01.28.01:157][317]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.06-01.28.01:158][317]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.06.06-01.28.01:158][317]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.06.06-01.28.01:159][317]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.06.06-01.28.01:159][317]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.06.06-01.28.01:159][317]LogInit: FAudioDevice initialized with ID 8.
+[2024.06.06-01.28.01:159][317]LogAudio: Display: Audio Device (ID: 8) registered with world 'RamsesTran_Scene'.
+[2024.06.06-01.28.01:159][317]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.06.06-01.28.01:163][317]LogLoad: Game class is 'GameModeBase'
+[2024.06.06-01.28.01:165][317]LogWorld: Bringing World /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene up for play (max tick rate 0) at 2024.06.05-21.28.01
+[2024.06.06-01.28.01:165][317]LogWorld: Bringing up level for play took: 0.002044
+[2024.06.06-01.28.01:166][317]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2024.06.06-01.28.01:199][317]PIE: Server logged in
+[2024.06.06-01.28.01:200][317]PIE: Play in editor total start time 0.127 seconds.
+[2024.06.06-01.28.41:988][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.28.41:988][749]LogWorld: BeginTearingDown for /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.28.41:988][749]LogWorld: UWorld::CleanupWorld for RamsesTran_Scene, bSessionEnded=true, bCleanupResources=true
+[2024.06.06-01.28.41:988][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.28.41:988][749]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.06.06-01.28.41:988][749]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.06.06-01.28.41:991][749]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.06-01.28.41:994][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.28.41:998][749]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.06-01.28.41:998][749]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.06.06-01.28.41:998][749]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.06.06-01.28.42:000][749]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.06.06-01.28.42:002][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.28.42:003][749]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.06.06-01.28.42:072][750]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2024.06.06-01.29.03:734][403]LogSlate: Window 'Color Picker' being destroyed
+[2024.06.06-01.29.22:155][805]LogSlate: Window 'Color Picker' being destroyed
+[2024.06.06-01.29.34:202][714]LogSlate: Window 'Color Picker' being destroyed
+[2024.06.06-01.29.48:069][772]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.06.06-01.29.48:070][772]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.06.06-01.29.53:541][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.06.06-01.29.53:544][208]LogEditorActor: Deleted 0 Actors (0.011 secs)
+[2024.06.06-01.29.53:550][208]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.06.06-01.29.53:550][208]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.06.06-01.30.04:724][ 74]Cmd: TRANSACTION UNDO
+[2024.06.06-01.30.04:724][ 74]LogEditorTransaction: Undo Move Elements
+[2024.06.06-01.30.05:263][ 97]Cmd: TRANSACTION UNDO
+[2024.06.06-01.30.05:263][ 97]LogEditorTransaction: Undo Move Elements
+[2024.06.06-01.30.05:771][136]Cmd: TRANSACTION UNDO
+[2024.06.06-01.30.05:771][136]LogEditorTransaction: Undo Move Elements
+[2024.06.06-01.30.06:265][174]Cmd: TRANSACTION UNDO
+[2024.06.06-01.30.06:265][174]LogEditorTransaction: Undo Move Elements
+[2024.06.06-01.30.06:709][209]Cmd: TRANSACTION UNDO
+[2024.06.06-01.30.06:709][209]LogEditorTransaction: Undo Move Elements
+[2024.06.06-01.30.07:092][236]Cmd: TRANSACTION UNDO
+[2024.06.06-01.30.07:092][236]LogEditorTransaction: Undo Place Objects
+[2024.06.06-01.30.14:261][767]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire
+[2024.06.06-01.30.14:261][767]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire
+[2024.06.06-01.30.14:262][767]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire as actor: Emitter /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.Emitter_2
+[2024.06.06-01.30.14:262][767]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire as actor: Emitter /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.Emitter_2
+[2024.06.06-01.30.15:681][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2024.06.06-01.30.15:684][874]LogEditorActor: Deleted 0 Actors (0.006 secs)
+[2024.06.06-01.30.15:689][874]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire
+[2024.06.06-01.30.15:689][874]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire
+[2024.06.06-01.30.15:690][874]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire as actor: Emitter /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.Emitter_3
+[2024.06.06-01.30.15:690][874]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire as actor: Emitter /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.Emitter_3
+[2024.06.06-01.31.15:213][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.06.06-01.31.15:217][746]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.06-01.31.15:267][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2024.06.06-01.31.15:284][746]LogSavePackage: Moving output files for package: /Game/RamsesTran_Scene
+[2024.06.06-01.31.15:295][746]LogSavePackage: Moving '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Saved/RamsesTran_Scene2C8FDCF3441D32E6FB967D9A86296AB9.tmp' to '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Content/RamsesTran_Scene.umap'
+[2024.06.06-01.31.15:299][746]LogFileHelpers: Saving map 'RamsesTran_Scene' took 0.048
+[2024.06.06-01.31.15:314][746]LogFileHelpers: InternalPromptForCheckoutAndSave took 96.916 ms (total: 831.381 ms)
+[2024.06.06-01.31.15:352][746]LogContentValidation: Display: Starting to validate 1 assets
+[2024.06.06-01.31.15:352][746]LogContentValidation: Enabled validators:
+[2024.06.06-01.31.15:352][746]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.06.06-01.31.15:352][746]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.06.06-01.31.15:352][746]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.06.06-01.31.15:352][746]LogContentValidation: Display: Validating asset /Game/RamsesTran_Scene.RamsesTran_Scene
+[2024.06.06-01.31.15:352][746]AssetCheck: /Game/RamsesTran_Scene Validating asset
+[2024.06.06-01.31.16:675][833]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.06-01.31.16:688][833]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.06-01.31.16:728][833]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.31.16:733][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004593s)
+[2024.06.06-01.31.16:733][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RamsesTran_Scene.RamsesTran_Scene to /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene (0.004644s)
+[2024.06.06-01.31.16:736][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.06.06-01.31.16:737][833]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.06.06-01.31.16:738][833]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2024.06.06-01.31.16:770][833]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.06.06-01.31.16:770][833]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.06-01.31.16:770][833]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.06-01.31.16:770][833]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.06-01.31.16:770][833]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.06-01.31.16:770][833]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.06-01.31.16:770][833]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.06-01.31.16:770][833]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.06-01.31.16:770][833]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.06-01.31.16:770][833]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.06-01.31.16:770][833]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.06-01.31.16:770][833]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.06-01.31.16:772][833]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.06-01.31.16:791][833]LogAudioMixer: Display: Using Audio Hardware Device Speakers (fifine SC3)
+[2024.06.06-01.31.16:791][833]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.06-01.31.16:791][833]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.06-01.31.16:791][833]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.06-01.31.16:792][833]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.06.06-01.31.16:792][833]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.06.06-01.31.16:793][833]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.06.06-01.31.16:793][833]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.06.06-01.31.16:793][833]LogInit: FAudioDevice initialized with ID 9.
+[2024.06.06-01.31.16:793][833]LogAudio: Display: Audio Device (ID: 9) registered with world 'RamsesTran_Scene'.
+[2024.06.06-01.31.16:793][833]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.06.06-01.31.16:796][833]LogLoad: Game class is 'GameModeBase'
+[2024.06.06-01.31.16:799][833]LogWorld: Bringing World /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene up for play (max tick rate 0) at 2024.06.05-21.31.16
+[2024.06.06-01.31.16:799][833]LogWorld: Bringing up level for play took: 0.002776
+[2024.06.06-01.31.16:801][833]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2024.06.06-01.31.16:834][833]PIE: Server logged in
+[2024.06.06-01.31.16:835][833]PIE: Play in editor total start time 0.153 seconds.
+[2024.06.06-01.32.53:262][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.32.53:262][786]LogWorld: BeginTearingDown for /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.32.53:262][786]LogWorld: UWorld::CleanupWorld for RamsesTran_Scene, bSessionEnded=true, bCleanupResources=true
+[2024.06.06-01.32.53:263][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.32.53:263][786]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.06.06-01.32.53:263][786]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.06.06-01.32.53:267][786]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.06-01.32.53:270][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.32.53:273][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.32.53:273][786]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.06.06-01.32.53:273][786]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.06.06-01.32.53:275][786]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.06.06-01.32.53:280][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.06.06-01.32.53:353][787]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.06.06-01.33.13:970][573]Cmd: DELETE
+[2024.06.06-01.33.13:970][573]Cmd: ACTOR DELETE
+[2024.06.06-01.33.13:972][573]LogEditorActor: Deleted Actor: SkyAtmosphere
+[2024.06.06-01.33.13:977][573]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.06.06-01.33.13:980][573]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2024.06.06-01.33.17:767][904]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.06-01.33.17:777][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.06-01.33.17:799][904]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.33.17:803][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003780s)
+[2024.06.06-01.33.17:803][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RamsesTran_Scene.RamsesTran_Scene to /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene (0.003818s)
+[2024.06.06-01.33.17:806][904]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.06.06-01.33.17:807][904]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.06.06-01.33.17:808][904]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2024.06.06-01.33.17:840][904]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.06.06-01.33.17:840][904]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.06-01.33.17:840][904]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.06-01.33.17:840][904]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.06-01.33.17:840][904]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.06-01.33.17:840][904]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.06-01.33.17:840][904]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.06-01.33.17:840][904]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.06-01.33.17:840][904]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.06-01.33.17:840][904]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.06-01.33.17:840][904]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.06-01.33.17:840][904]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.06-01.33.17:842][904]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.06-01.33.17:859][904]LogAudioMixer: Display: Using Audio Hardware Device Speakers (fifine SC3)
+[2024.06.06-01.33.17:859][904]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.06-01.33.17:859][904]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.06-01.33.17:859][904]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.06-01.33.17:860][904]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.06.06-01.33.17:860][904]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.06.06-01.33.17:861][904]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.06.06-01.33.17:862][904]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.06.06-01.33.17:862][904]LogInit: FAudioDevice initialized with ID 10.
+[2024.06.06-01.33.17:862][904]LogAudio: Display: Audio Device (ID: 10) registered with world 'RamsesTran_Scene'.
+[2024.06.06-01.33.17:862][904]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.06.06-01.33.17:864][904]LogLoad: Game class is 'GameModeBase'
+[2024.06.06-01.33.17:866][904]LogWorld: Bringing World /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene up for play (max tick rate 0) at 2024.06.05-21.33.17
+[2024.06.06-01.33.17:866][904]LogWorld: Bringing up level for play took: 0.002104
+[2024.06.06-01.33.17:868][904]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.06.06-01.33.17:901][904]PIE: Server logged in
+[2024.06.06-01.33.17:901][904]PIE: Play in editor total start time 0.13 seconds.
+[2024.06.06-01.34.31:912][ 61]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.34.31:912][ 61]LogWorld: BeginTearingDown for /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.34.31:912][ 61]LogWorld: UWorld::CleanupWorld for RamsesTran_Scene, bSessionEnded=true, bCleanupResources=true
+[2024.06.06-01.34.31:913][ 61]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.34.31:914][ 61]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.06.06-01.34.31:914][ 61]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.06.06-01.34.31:916][ 61]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.06-01.34.31:918][ 61]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.34.31:922][ 61]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.06-01.34.31:922][ 61]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.06.06-01.34.31:922][ 61]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.06.06-01.34.31:923][ 61]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.06.06-01.34.31:925][ 61]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.34.31:927][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.06.06-01.34.31:981][ 62]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.06.06-01.34.32:578][104]Cmd: TRANSACTION UNDO
+[2024.06.06-01.34.32:578][104]LogEditorTransaction: Undo Delete Elements
+[2024.06.06-01.34.32:899][112]Cmd: TRANSACTION UNDO
+[2024.06.06-01.34.32:899][112]LogEditorTransaction: Undo Clicking on Elements
+[2024.06.06-01.36.00:183][988]Cmd: DELETE
+[2024.06.06-01.36.00:183][988]Cmd: ACTOR DELETE
+[2024.06.06-01.36.00:186][988]LogEditorActor: Deleted Actor: SkyAtmosphere
+[2024.06.06-01.36.00:191][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.06.06-01.36.00:194][988]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2024.06.06-01.37.04:520][899]LogSlate: Window 'Color Picker' being destroyed
+[2024.06.06-01.37.05:747][976]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.06-01.37.05:758][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.06-01.37.05:758][976]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.37.05:763][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004285s)
+[2024.06.06-01.37.05:763][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RamsesTran_Scene.RamsesTran_Scene to /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene (0.004320s)
+[2024.06.06-01.37.05:766][976]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.06.06-01.37.05:769][976]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.06.06-01.37.05:770][976]LogPlayLevel: PIE: World Init took: (0.000794s)
+[2024.06.06-01.37.05:801][976]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.06.06-01.37.05:801][976]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.06-01.37.05:801][976]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.06-01.37.05:801][976]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.06-01.37.05:801][976]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.06-01.37.05:801][976]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.06-01.37.05:801][976]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.06-01.37.05:801][976]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.06-01.37.05:801][976]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.06-01.37.05:801][976]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.06-01.37.05:801][976]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.06-01.37.05:801][976]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.06-01.37.05:803][976]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.06-01.37.05:820][976]LogAudioMixer: Display: Using Audio Hardware Device Speakers (fifine SC3)
+[2024.06.06-01.37.05:821][976]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.06-01.37.05:821][976]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.06-01.37.05:821][976]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.06-01.37.05:821][976]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.06.06-01.37.05:821][976]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.06.06-01.37.05:822][976]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.06.06-01.37.05:822][976]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.06.06-01.37.05:823][976]LogInit: FAudioDevice initialized with ID 11.
+[2024.06.06-01.37.05:823][976]LogAudio: Display: Audio Device (ID: 11) registered with world 'RamsesTran_Scene'.
+[2024.06.06-01.37.05:823][976]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.06.06-01.37.05:825][976]LogLoad: Game class is 'GameModeBase'
+[2024.06.06-01.37.05:827][976]LogWorld: Bringing World /Game/UEDPIE_0_RamsesTran_Scene.RamsesTran_Scene up for play (max tick rate 0) at 2024.06.05-21.37.05
+[2024.06.06-01.37.05:828][976]LogWorld: Bringing up level for play took: 0.002457
+[2024.06.06-01.37.05:829][976]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.06.06-01.37.05:866][976]PIE: Server logged in
+[2024.06.06-01.37.05:867][976]PIE: Play in editor total start time 0.115 seconds.
+[2024.06.06-01.38.20:274][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.38.20:274][642]LogWorld: BeginTearingDown for /Game/UEDPIE_0_RamsesTran_Scene
+[2024.06.06-01.38.20:274][642]LogWorld: UWorld::CleanupWorld for RamsesTran_Scene, bSessionEnded=true, bCleanupResources=true
+[2024.06.06-01.38.20:275][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.38.20:275][642]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.06.06-01.38.20:275][642]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.06.06-01.38.20:277][642]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.06-01.38.20:280][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.38.20:284][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.06-01.38.20:284][642]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.06.06-01.38.20:284][642]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.06.06-01.38.20:285][642]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.06.06-01.38.20:289][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.06.06-01.38.20:367][643]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.06.06-01.38.20:940][677]Cmd: SELECT NONE
+[2024.06.06-01.38.23:324][839]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.06.06-01.38.23:329][839]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.06-01.38.23:381][839]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2024.06.06-01.38.23:397][839]LogSavePackage: Moving output files for package: /Game/RamsesTran_Scene
+[2024.06.06-01.38.23:397][839]LogSavePackage: Moving '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Saved/RamsesTran_Scene943D3D044387126C2CB0CE9128B191DC.tmp' to '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Content/RamsesTran_Scene.umap'
+[2024.06.06-01.38.23:402][839]LogFileHelpers: Saving map 'RamsesTran_Scene' took 0.036
+[2024.06.06-01.38.23:417][839]LogFileHelpers: InternalPromptForCheckoutAndSave took 88.223 ms (total: 919.604 ms)
+[2024.06.06-01.38.23:455][839]LogContentValidation: Display: Starting to validate 1 assets
+[2024.06.06-01.38.23:455][839]LogContentValidation: Enabled validators:
+[2024.06.06-01.38.23:455][839]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.06.06-01.38.23:455][839]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.06.06-01.38.23:455][839]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.06.06-01.38.23:455][839]LogContentValidation: Display: Validating asset /Game/RamsesTran_Scene.RamsesTran_Scene
+[2024.06.06-01.38.23:455][839]AssetCheck: /Game/RamsesTran_Scene Validating asset
+[2024.06.06-01.39.21:940][655]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.06.06-01.42.27:586][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.06.06-01.42.27:590][416]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.06-01.42.27:645][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2024.06.06-01.42.27:662][416]LogSavePackage: Moving output files for package: /Game/RamsesTran_Scene
+[2024.06.06-01.42.27:663][416]LogSavePackage: Moving '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Saved/RamsesTran_Scene5E6F639743D079F9D3A5B19B227F314C.tmp' to '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Content/RamsesTran_Scene.umap'
+[2024.06.06-01.42.27:667][416]LogFileHelpers: Saving map 'RamsesTran_Scene' took 0.038
+[2024.06.06-01.42.27:675][416]LogFileHelpers: InternalPromptForCheckoutAndSave took 85.020 ms (total: 1.00 sec)
+[2024.06.06-01.42.27:715][416]LogContentValidation: Display: Starting to validate 1 assets
+[2024.06.06-01.42.27:715][416]LogContentValidation: Enabled validators:
+[2024.06.06-01.42.27:715][416]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.06.06-01.42.27:715][416]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.06.06-01.42.27:715][416]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.06.06-01.42.27:715][416]LogContentValidation: Display: Validating asset /Game/RamsesTran_Scene.RamsesTran_Scene
+[2024.06.06-01.42.27:715][416]AssetCheck: /Game/RamsesTran_Scene Validating asset
+[2024.06.06-01.43.08:864][925]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.06.06-01.43.10:737][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2024.06.06-01.43.10:751][ 62]LogStall: Shutdown...
+[2024.06.06-01.43.10:755][ 62]LogStall: Shutdown complete.
+[2024.06.06-01.43.10:774][ 62]LogSlate: Window 'ANIM_145_Final - Unreal Editor' being destroyed
+[2024.06.06-01.43.10:839][ 62]Cmd: QUIT_EDITOR
+[2024.06.06-01.43.10:839][ 63]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.06.06-01.43.10:841][ 63]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.06.06-01.43.10:841][ 63]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.06.06-01.43.10:841][ 63]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.06.06-01.43.10:843][ 63]LogWorld: UWorld::CleanupWorld for RamsesTran_Scene, bSessionEnded=true, bCleanupResources=true
+[2024.06.06-01.43.10:843][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.43.10:843][ 63]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.06.06-01.43.10:843][ 63]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.06.06-01.43.10:847][ 63]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.06.06-01.43.10:876][ 63]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.06.06-01.43.10:876][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.43.10:877][ 63]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.06.06-01.43.10:877][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.06-01.43.10:995][ 63]LogStudioTelemetry: Ended StudioTelemetry Session
+[2024.06.06-01.43.11:000][ 63]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2024.06.06-01.43.11:000][ 63]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2024.06.06-01.43.11:000][ 63]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2024.06.06-01.43.11:901][ 63]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.06.06-01.43.11:901][ 63]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.06.06-01.43.11:901][ 63]LogAudio: Display: Audio Device unregistered from world 'RamsesTran_Scene'.
+[2024.06.06-01.43.11:901][ 63]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2024.06.06-01.43.11:901][ 63]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.06.06-01.43.11:902][ 63]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.06.06-01.43.11:906][ 63]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2024.06.06-01.43.11:906][ 63]LogAudio: Display: Audio Device Manager Shutdown
+[2024.06.06-01.43.11:906][ 63]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.06.06-01.43.11:909][ 63]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.06.06-01.43.11:909][ 63]LogExit: Preparing to exit.
+[2024.06.06-01.43.11:918][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.06.06-01.43.12:814][ 63]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.06.06-01.43.12:838][ 63]LogExit: Editor shut down
+[2024.06.06-01.43.12:840][ 63]LogExit: Transaction tracking system shut down
+[2024.06.06-01.43.12:963][ 63]LogExit: Object subsystem successfully closed.
+[2024.06.06-01.43.13:034][ 63]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.06.06-01.43.13:282][ 63]MemoryProfiler: Shutdown
+[2024.06.06-01.43.13:282][ 63]NetworkingProfiler: Shutdown
+[2024.06.06-01.43.13:282][ 63]LoadingProfiler: Shutdown
+[2024.06.06-01.43.13:282][ 63]TimingProfiler: Shutdown
+[2024.06.06-01.43.13:382][ 63]LogOpenImageDenoise: OIDN shutting down
+[2024.06.06-01.43.13:791][ 63]RenderDocPlugin: plugin has been unloaded.
+[2024.06.06-01.43.13:815][ 63]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2024.06.06-01.43.13:815][ 63]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE144D830-4BE1-FDF9-DAB1-4987D1EFFFEF%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.4.2-33871570%2B%2B%2BUE5%2BRelease-5.4&UserID=63741a34473ece09adcf41a0af10c821%7C493a09a65d9e4c5ab797417b03ffdc7f%7C79050e7b-49af-4e1e-ae83-a6019ca8c109&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2024.06.06-01.43.13:828][ 63]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2024.06.06-01.43.13:834][ 63]LogXGEController: Cleaning working directory: C:/Users/yolos/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2024.06.06-01.43.13:835][ 63]LogPakFile: Destroying PakPlatformFile
+[2024.06.06-01.43.14:104][ 63]LogD3D12RHI: ~FD3D12DynamicRHI
+[2024.06.06-01.43.14:118][ 63]LogExit: Exiting.
+[2024.06.06-01.43.14:138][ 63]Log file closed, 06/05/24 21:43:14
