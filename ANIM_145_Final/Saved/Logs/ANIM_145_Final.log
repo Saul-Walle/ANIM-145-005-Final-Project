@@ -1109,3 +1109,63 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.06.06-03.19.11:746][194]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
 [2024.06.06-03.19.11:746][194]LogShaderCompilers: Display: Material Cache Hits: 16 (9%)
 [2024.06.06-03.19.11:746][194]LogShaderCompilers: Display: ================================================
+[2024.06.06-03.23.16:748][580]Cmd: TRANSACTION UNDO
+[2024.06.06-03.23.16:748][580]LogEditorTransaction: Undo Clicking on Elements
+[2024.06.06-03.25.25:041][266]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (object: StaticMeshComponent /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.StaticMeshActor_51.StaticMeshComponent0, from: Addition to navoctree)
+[2024.06.06-03.25.25:041][266]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (object: StaticMeshComponent /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.StaticMeshActor_53.StaticMeshComponent0, from: Addition to navoctree)
+[2024.06.06-03.25.25:041][266]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (object: StaticMeshComponent /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.StaticMeshActor_48.StaticMeshComponent0, from: Addition to navoctree)
+[2024.06.06-03.25.25:041][266]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (object: StaticMeshComponent /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.StaticMeshActor_50.StaticMeshComponent0, from: Addition to navoctree)
+[2024.06.06-03.25.25:041][266]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (object: StaticMeshComponent /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.StaticMeshActor_45.StaticMeshComponent0, from: Addition to navoctree)
+[2024.06.06-03.25.25:041][266]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (object: StaticMeshComponent /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.StaticMeshActor_47.StaticMeshComponent0, from: Addition to navoctree)
+[2024.06.06-03.25.25:041][266]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (object: StaticMeshComponent /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.StaticMeshActor_57.StaticMeshComponent0, from: Addition to navoctree)
+[2024.06.06-03.25.25:054][267]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (object: StaticMeshComponent /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.StaticMeshActor_51.StaticMeshComponent0, from: Remove from navoctree)
+[2024.06.06-03.25.25:054][267]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (object: StaticMeshComponent /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.StaticMeshActor_53.StaticMeshComponent0, from: Remove from navoctree)
+[2024.06.06-03.25.25:054][267]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (object: StaticMeshComponent /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.StaticMeshActor_48.StaticMeshComponent0, from: Remove from navoctree)
+[2024.06.06-03.25.25:054][267]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (object: StaticMeshComponent /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.StaticMeshActor_50.StaticMeshComponent0, from: Remove from navoctree)
+[2024.06.06-03.25.25:054][267]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (object: StaticMeshComponent /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.StaticMeshActor_45.StaticMeshComponent0, from: Remove from navoctree)
+[2024.06.06-03.25.25:054][267]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (object: StaticMeshComponent /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.StaticMeshActor_47.StaticMeshComponent0, from: Remove from navoctree)
+[2024.06.06-03.25.25:054][267]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (object: StaticMeshComponent /Game/RamsesTran_Scene.RamsesTran_Scene:PersistentLevel.StaticMeshActor_57.StaticMeshComponent0, from: Remove from navoctree)
+[2024.06.06-03.25.25:992][339]Cmd: TRANSACTION UNDO
+[2024.06.06-03.25.25:992][339]LogEditorTransaction: Undo Scale Elements
+[2024.06.06-03.28.01:924][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.06.06-03.28.01:932][790]LogPackageLocalizationCache: Processed 51 localized package path(s) for 1 prioritized culture(s) in 0.004825 seconds
+[2024.06.06-03.28.01:947][790]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/RamsesTran_Scene_Auto1
+[2024.06.06-03.28.01:947][790]LogSavePackage: Moving '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Saved/RamsesTran_Scene_Auto163BA359B4BB22869C200B0AE48A4DA87.tmp' to '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Saved/Autosaves/Game/RamsesTran_Scene_Auto1.umap'
+[2024.06.06-03.28.01:952][790]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Saved/Autosaves/Game/RamsesTran_Scene_Auto1.umap is in the /Temp path, will not scan.
+[2024.06.06-03.28.01:952][790]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/RamsesTran_Scene' took 0.032
+[2024.06.06-03.28.01:952][790]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.032
+[2024.06.06-03.30.51:442][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2024.06.06-03.30.51:456][575]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.06-03.30.51:509][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2024.06.06-03.30.51:525][575]LogSavePackage: Moving output files for package: /Game/RamsesTran_Scene
+[2024.06.06-03.30.51:526][575]LogSavePackage: Moving '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Saved/RamsesTran_SceneF19069CA4E1C5C10C998E6B84D6F4979.tmp' to '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Content/RamsesTran_Scene.umap'
+[2024.06.06-03.30.51:530][575]LogFileHelpers: Saving map 'RamsesTran_Scene' took 0.035
+[2024.06.06-03.30.51:558][575]LogFileHelpers: InternalPromptForCheckoutAndSave took 102.034 ms
+[2024.06.06-03.30.51:595][575]LogContentValidation: Display: Starting to validate 1 assets
+[2024.06.06-03.30.51:595][575]LogContentValidation: Enabled validators:
+[2024.06.06-03.30.51:596][575]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.06.06-03.30.51:596][575]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.06.06-03.30.51:596][575]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.06.06-03.30.51:596][575]LogContentValidation: Display: Validating asset /Game/RamsesTran_Scene.RamsesTran_Scene
+[2024.06.06-03.30.51:596][575]AssetCheck: /Game/RamsesTran_Scene Validating asset
+[2024.06.06-03.33.28:263][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.06.06-03.40.51:846][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.06.06-03.40.51:864][517]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/RamsesTran_Scene_Auto2
+[2024.06.06-03.40.51:865][517]LogSavePackage: Moving '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Saved/RamsesTran_Scene_Auto2F60199C943E58A2F4EDE33A4218CADA9.tmp' to '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Saved/Autosaves/Game/RamsesTran_Scene_Auto2.umap'
+[2024.06.06-03.40.51:875][517]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Saved/Autosaves/Game/RamsesTran_Scene_Auto2.umap is in the /Temp path, will not scan.
+[2024.06.06-03.40.51:876][517]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/RamsesTran_Scene' took 0.034
+[2024.06.06-03.40.51:876][517]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.034
+[2024.06.06-03.41.07:913][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2024.06.06-03.41.07:926][979]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.06-03.41.07:977][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2024.06.06-03.41.07:994][979]LogSavePackage: Moving output files for package: /Game/RamsesTran_Scene
+[2024.06.06-03.41.07:994][979]LogSavePackage: Moving '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Saved/RamsesTran_Scene5EC5003444AF4BAC30B09E90B3F564B6.tmp' to '../../../../../../Users/yolos/OneDrive/Documents/GitHub/ANIM-145-005-Final-Project/ANIM_145_Final/Content/RamsesTran_Scene.umap'
+[2024.06.06-03.41.07:999][979]LogFileHelpers: Saving map 'RamsesTran_Scene' took 0.036
+[2024.06.06-03.41.08:026][979]LogFileHelpers: InternalPromptForCheckoutAndSave took 100.498 ms (total: 202.533 ms)
+[2024.06.06-03.41.08:065][979]LogContentValidation: Display: Starting to validate 1 assets
+[2024.06.06-03.41.08:065][979]LogContentValidation: Enabled validators:
+[2024.06.06-03.41.08:065][979]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.06.06-03.41.08:065][979]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.06.06-03.41.08:065][979]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.06.06-03.41.08:065][979]LogContentValidation: Display: Validating asset /Game/RamsesTran_Scene.RamsesTran_Scene
+[2024.06.06-03.41.08:066][979]AssetCheck: /Game/RamsesTran_Scene Validating asset
